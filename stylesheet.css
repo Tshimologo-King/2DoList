@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.addAGoal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#enterAGoal{
+    padding: 20px;
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: lightgrey;
+    color: darkgray;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+#addButton{
+    padding: 20px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+/* body */
+
+h4{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2rem;
+}
+
+#addedGoal{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#number{
+    padding: 10px;
+}
+
+#deleteButton{
+    display: none;
+}
+
+#editButton{
+    display: none;
+}
